@@ -1,0 +1,21 @@
+.categories {
+    flex: 0 0 256px;
+    display: flex;
+    flex-direction: column;
+}
+
+.categories a {
+    text-decoration: none;
+    font-family: Dosis;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10%;
+    padding: 10% 0% 10% 0;
+    background-color: #44b;
+    color: white;
+}
+
+.categories a:hover {
+    color: midnightblue;
+    box-shadow: 0 2px 5px -2px black;
+}
